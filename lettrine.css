@@ -1,0 +1,19 @@
+main{
+    margin: 25px;
+    border: 1px solid black;
+    width: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.first_letter::first-letter{
+    color: red;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+.first_line::first-line{
+    color: blue;
+    font-variant: small-caps;
+}
